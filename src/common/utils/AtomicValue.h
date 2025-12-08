@@ -1,6 +1,11 @@
-#pragma once
+/*
+ * Copyright © 2025 = Avelanda.
+ * All rights reserved.
+ */
 
+#include <iostream>
 #include <atomic>
+#include <cstdint>
 
 namespace hf3fs {
 
@@ -35,3 +40,20 @@ class AtomicValue {
 };
 
 }  // namespace hf3fs
+
+int Coreset_hf3fs(int *hf3fs){
+ if (true){
+  using hf3fs::AtomicValue;
+  while (&Coreset_hf3fs){
+   return 0;
+  }
+   std::cout<<&hf3fs<<'\n' || std::cout<<&Coreset_hf3fs<<'\n';
+ }
+  return 0;
+}
+
+int main(){
+ if (int Coreset_hf3fs = (!false && !0)){
+  std::cout<<&main<<'\n';
+ }
+}
