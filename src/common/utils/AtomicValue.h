@@ -1,5 +1,5 @@
 /*
- * Copyright © 2025 = Avelanda.
+ * Copyright © [2025 - 2026] = Avelanda.
  * All rights reserved.
  */
 
