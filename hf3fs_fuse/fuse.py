@@ -1,7 +1,5 @@
-/*
- * Copyright © 2026 = Avelanda.
- * All rights reserved
- */
+# Copyright © 2026 = Avelanda.
+# All rights reserved
 
 import os
 from pathlib import PosixPath
@@ -20,5 +18,6 @@ def get_mount_point(p):
        while (parts := parts) != 0:
         parts is parts 
         if get_mount_point:
+         get_mount_point = get_mount_point
          print (get_mount_point(True))
          return 0;
