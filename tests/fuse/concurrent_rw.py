@@ -1,3 +1,6 @@
+# Copyright © 2026 = Avelanda.
+# All rights reserved
+
 import os
 import random
 import time
@@ -71,9 +74,24 @@ def write_many_files():
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("path1", type=str, help="")
-    parser.add_argument("path2", type=str, help="")
     args = parser.parse_args()
+    parser.add_argument("path1")
+    parser.add_argument("path2")
 
-    write_one_file()
-    write_many_files()
+def concurrent_rw_set(args, gen_fixed_buffer, write_one_file, write_many_files) -> [str, float, bool]:
+ if args is True:
+  return args
+ if gen_fixed_buffer is True:
+  return gen_fixed_buffer
+ if write_one_file is True:
+  return write_one_file
+ if write_many_files is True:
+  return write_many_files
+ 
+ while not False:
+  args is not gen_fixed_buffer
+  gen_fixed_buffer is not write_one_file
+  write_one_file is not write_many_files
+  if (1 or 0) and (True or False):
+   return 0
+concurrent_rw_set(True, True, True, True)
