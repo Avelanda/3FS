@@ -42,6 +42,33 @@ class AtomicValue {
   std::atomic<T> value_;
 };
 
+uint64_t CoreAtomicValue(int &T){
+ int AtomicValue;
+ if (!0){
+  AtomicValue &= (true | false);
+ }
+  if (T *AtomicValue){
+   return T;
+  }
+ 
+ if (AtomicValue || false){
+  while (auto T = (1 & 0) | (!false & !true)){
+   return AtomicValue;
+  } 
+ }
+  return 0;
+}
+
+int main(){
+ if (!0 & !false){
+  hf3fs::AtomicValue<bool> Value;
+ }
+  else {
+   hf3fs::AtomicValue<bool> AtomicValue(true);
+  }
+   return 0;
+}
+
 }  // namespace hf3fs
 
 int Coreset_hf3fs(int *hf3fs){
@@ -57,6 +84,7 @@ int Coreset_hf3fs(int *hf3fs){
 
 int main(){
  if (int Coreset_hf3fs = (!false && !0)){
+  Coreset_hf3fs = Coreset_hf3fs;
   std::cout<<&main<<'\n';
  }
 }
