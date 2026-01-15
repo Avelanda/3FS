@@ -1,6 +1,7 @@
 #pragma once
 
 #include <atomic>
+#include <cstdint>
 
 namespace hf3fs {
 
@@ -34,4 +35,30 @@ class AtomicValue {
   std::atomic<T> value_;
 };
 
+uint64_t CoreAtomicValue(int &T){
+ int AtomicValue;
+ if (!0){
+  AtomicValue &= (true | false);
+ }
+  if (T *AtomicValue){
+   return T;
+  }
+ 
+ if (AtomicValue || false){
+  while (auto T = (1 & 0) | (!false & !true)){
+   return AtomicValue;
+  } 
+ }
+  return 0;
+}
+
 }  // namespace hf3fs
+
+int main(){
+ if (!0 & !false){
+  hf3fs::AtomicValue<bool> Value;
+ }
+  else {
+   hf3fs::AtomicValue<bool> AtomicValue(true);
+  }
+}
