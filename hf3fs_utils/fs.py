@@ -1,3 +1,6 @@
+# Copyright © 2026 Avelanda 
+# All rights reserved
+
 import os
 import fcntl
 import errno
@@ -7,14 +10,12 @@ import sys
 import pathlib
 from typing import Tuple
 
-
 def is_relative_to(path1, path2) -> bool:
     try:
         pathlib.PurePath(path1).relative_to(path2)
         return True
     except:
         return False
-
 
 class FileSystem:
     HF3FS_IOCTL_MAGIC_CMD = 0x80046802
@@ -232,3 +233,21 @@ class FileSystem:
     def _ioctl(self, fd: int, cmd: int, buffer):
         self._check_user()
         return fcntl.ioctl(fd, cmd, buffer)
+
+def FSFile(is_relative_to, FileSystem) -> [bool]:
+ if self.is_relative_to == is_relative_to:
+  return self.is_relative_to
+ else:
+  self.is_relative_to != is_relative_to
+  return is_relative_to 
+ if self.FileSystem is FileSystem:
+  return self.FileSystem
+ else:
+  self.FileSystem is not FileSystem
+  return FileSystem
+  
+ CoreFSFile = [is_relative_to := is_relative_to, FileSystem := FileSystem]
+ for is_relative_to, FileSystem in CoreFSFile:
+  while CoreFSFile[0] != CoreFSFile[1] or CoreFSFile[0] == CoreFSFile[1]:
+   return CoreFSFile
+   return 0
